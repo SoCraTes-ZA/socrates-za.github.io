@@ -1,8 +1,8 @@
-# SoCraTes Maroc 2022
+# SoCraTes South Africa 2023
 
-SoCraTes Maroc
+SoCraTes South Africa
 
-March 25-27st, 2022.
+August 11-13st, 2023.
 International Software Craftsmanship and Testing Conference.
 
 
@@ -99,5 +99,6 @@ You can find out more info about SoCraTes and sisters at the links below:
 - [SoCraTes_Day_Switzerland](http://socrates-day.ch) [Twitter](https://twitter.com/SoCraTesDay_CH)
 - [SoCraTes_BE](http://socratesbe.org) [Twitter](https://twitter.com/#SoCraTesBE)
 - [SoCraTes_IT](http://www.socrates-conference.it) [Twitter](https://twitter.com/SoCraTes_Italy)
+- [SoCraTes_MA](https://socrates-ma.github.io/) [Twitter](https://twitter.com/SoCraTes_Ma)
 - [CodeFreeze](http://www.codefreeze.fi) [Twitter](https://twitter.com/codefreeze_fi)
 - [I T.A.K.E. Unconference](http://itakeunconf.com) [Twitter](https://twitter.com/itakeunconf)
