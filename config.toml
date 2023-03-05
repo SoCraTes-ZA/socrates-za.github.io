@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://socrates-ma.github.io/"
+baseurl = "https://socrates-za.github.io/"
 languageCode = "en-us"
-title = "SoCraTes-MA"
+title = "SoCraTes-ZA"
 description = "International Conference for Software Craft and Testing"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
@@ -19,7 +19,7 @@ googleAnalytics = "278882533"
 
 	# To provide some metadata for search engines feel free to add a few
 	# information about you and your website.
-	name = "SoCraTes Maroc"
+	name = "SoCraTes South Africa"
 	description = "International Conference for Software Craft and Testing"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
@@ -38,14 +38,14 @@ googleAnalytics = "278882533"
 
 	# Navigation
 	[params.navigation]
-		brand = "SoCraTes Maroc"
+		brand = "SoCraTes ZA"
 		services = "What is it?"
 		portfolio = "Information"
 		about = "History"
 		team = "Family"
 		contact = "Registration"
-		partners = "Partners"
-		sponsors = "Sponsors"
+		#partners = "Partners"
+		#sponsors = "Sponsors"
 
 	# Add custom links. Those can be pre- and postpended to the default menu above.
 	# Use the weight attribute to order your custom links. Uncomment the example
@@ -59,15 +59,15 @@ googleAnalytics = "278882533"
 
 	# postpended links
 	[[menu.postpend]]
-		url = "https://github.com/SoCraTes-MA/socrates-ma.github.io/wiki"
+		url = "https://github.com/SoCraTes-ZA/socrates-za.github.io/wiki"
 		name = "Wiki"
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "March 10-12, 2023 International Conference for Software Craft and Testing."
-		subtitle = "SoCraTeS Morocco 2023"
+		title = "August 10-13, 2023 International Conference for Software Craft and Testing."
+		subtitle = "SoCraTeS South Africa 2023"
 		buttontext = "Tell me more"
 
 	# Services section
@@ -120,18 +120,11 @@ googleAnalytics = "278882533"
 		# All images are stored under 'static/img/about'.
 		# Replace them with your own.
 
-		[[params.about.events]]
-			img = "vechy-bouznika.jpg"
-			date = "March 10-12, 2023"
-			title = "Second edition - Bouznika"
-			description = "We plan to gather 40 software crafts, join us and be part of this edition!"
-
-
-      [[params.about.events]]
-			img = "ronsard.jpg"
-			date = "March 25-27, 2022"
-			title = "First edition - Marrakesh"
-			description = "We gathered 30 software craft and 8 partner/sponsors"
+    [[params.about.events]]
+			img = "header-bg.jpg"
+			date = "August 10-13, 2023"
+			title = "First edition - Cape Town"
+			description = "Coming soon!"
 
 
 
@@ -139,13 +132,22 @@ googleAnalytics = "278882533"
 	# Team section
 	[params.team]
 		enable = true
-		title = "SoCraTes-MA is a part of a big family."
+		title = "SoCraTes-ZA is a part of a big family."
 		subtitle = "The first “Software Craft and Testing (un)conference” took place a few years ago in Germany and is organised every year since 2011."
-		description = "Other conferences have emerged in other European countries such as SoCraTes UK SoCraTes FR and SoCraTes Canaries."
+		description = "Other conferences have emerged in other countries such as SoCraTes MA SoCraTes UK SoCraTes FR and SoCraTes Canaries."
 
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
+    [[params.team.members]]
+			img = "SoCraTes_FR.png"
+			name = "SoCraTes MA"
+			position = "Morocco"
+			social = [
+				["fa-twitter", "https://twitter.com/socrates_ma"],
+				["fa-link", "https://socrates-ma.github.io"]
+			]
+    
 		[[params.team.members]]
 			img = "SoCraTes_FR.png"
 			name = "SoCraTes FR"
@@ -245,112 +247,6 @@ googleAnalytics = "278882533"
 				["fa-link", "https://agilecrete.org"]
 			]
 
-	# Partners section
-	[params.partners]
-		enable = true
-		title = "Our Knowledge Partner"
-		subtitle = ""
-
-		[[params.partner]]
-			name = "McKinsey & Company"
-			logo = "mckinsey-logo.png"
-			link = "https://www.mckinsey.com/"
-
-	# Sponsor section
-	[params.sponsors]
-		enable = true
-		title = "Our Sponsors"
-		subtitle = ""
-
-   		[[params.sponsor]]
-			name = "Keiken Digital Solutions"
-			logo = "keiken-logo.jpg"
-			link = "https://keiken-digital.com/"
-    
-   		[[params.sponsor]]
-			name = "Maltem Africa"
-			logo = "maltem-square.jpeg"
-			link = "https://maltem.com/en/blog/portfolio-item/maltem-africa/"
-
-		[[params.sponsor]]
-		 	name = "Zenika"
-		 	logo = "logo-zenika.jpeg"
-		 	link = "http://www.zenika.com"
-
-		[[params.sponsor]]
-			name = "INWI"
-			logo = "inwi-square.jpeg"
-			link = "https://inwi.ma/"
-
-		[[params.sponsor]]
-			name = "NimbleWays"
-			logo = "nimble-square.jpeg"
-			link = "https://www.nimbleways.com"
-
- 		[[params.sponsor]]
-			name = "Gemography"
-			logo = "gemography-square.png"
-			link = "https://www.gemography.com"
-
-		#[[params.sponsor]]
-		#	name = "Octo Technology"
-		#	logo = "octo-square.png"
-		#	link = "http://www.octo.com"
-
- 		#[[params.sponsor]]
- 		#		name = "SOAT"
- 		#		logo = "soat-square.png"
- 		#		link = "http://www.soat.fr"
-
-		#[[params.sponsor]]
-		#	name = "Shodo"
-		#	logo = "shodo-square.png"
-		#	link = "https://shodo.io"
-
-		#[[params.sponsor]]
- 		# 		name = "Aneo"
- 		# 		logo = "aneo-square.jpg"
- 		# 		link = "http://www.aneo.eu"
-
-		# [[params.sponsor]]
-		# 	name = "Novencia"
-		# 	logo = "novencia-square.jpg"
-		# 	link = "http://www.novencia.com"
-
-		#[[params.sponsor]]
-		# 	name = "Axa"
-		# 	logo = "axa-square.jpg"
-		# 	link = "https://www.axa.fr"
-
-		#[[params.sponsor]]
-		# 	name = "La Combe du Lion Vert"
-		# 	logo = "La_Combe_du_Lion_Vert.png"
-		# 	link = "https://la-combe-du-lion-vert.fr/"
-		
-		
-
-
-		# [[params.sponsor]]
-        #	name = "BCG Platinion"
-        #	logo = "bcg-square.png"
-        #	link = "https://www.bcg.com/"
-
-# 		[[params.sponsor]]
-# 			name = "Viseo Technologies"
-# 			logo = "viseo-square.jpg"
-# 			link = "http://www.viseo.com"
-
-# 		[[params.sponsor]]
-# 			name = "Codurance"
-# 			logo = "codurance-square.png"
-# 			link = "http://codurance.com"
-
- 		# [[params.sponsor]]
- 		# 	name = "Orange"
- 		# 	logo = "orange-square.png"
- 		# 	link = "https://developer.orange.com"
-
-
 	[params.socratesday]
 		enable = false
 		title = "Sponsorship"
@@ -359,8 +255,8 @@ googleAnalytics = "278882533"
 
 	[params.contact]
 		enable = true
-		title = "Pre-registration is now open !!"
-		subtitle  = "The event will be limited to 40 participants with a managed hotel accomodation within Vichy Celestins, \n\n Please mind filling the form with your details, we will reach out and eventually confirm your seat"
+		title = "Pre-registration coming soon !!"
+		subtitle  = ""
 		buttonText = "Send message"
 
 	# Footer section
